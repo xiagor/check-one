@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+}
+p{
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+a{
+	text-decoration: none;
+}
+#container{
+	width: 100%;
+	min-width: 1500px;
+}
+#header{
+	height: 164px;
+}
+
+/*top*/
+#top{
+	padding: 0 138px; 
+	height: 39px;
+	background-color: #3d3d3d;
+	display: flex;
+	justify-content: space-between;
+}
+.top_text{
+	color: white;
+	display: inline-block;
+	line-height: 39px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.contact{
+	font-family: Arial;
+	margin-right:30px; 
+}
+#welcome{
+	font-family: SourceHanSansCN,Arial;
+	font-weight: bold;
+	padding: inherit;
+}
+#login>a{
+	font-family: SourceHanSansCN,Arial;
+	font-weight: bold;  	
+	margin-right: 20px;
+}
+#login>a:hover{
+	color: #1ba19d;
+}
+
+#navigation{
+	padding: 0 138px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 131px;
+}
+#logo{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.navig_text{
+	font-family: SourceHanSansCN,Arial;
+	font-weight: bold; 	
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+#logo_text{
+	margin-left: 19px;
+}
+#navig_list>a{
+	color: black;
+	margin-right: 26px;
+}
+#navig_list>a:hover{
+	color: #1ba19d;
+}
+#search{
+	background-image: url("img/b1.jpg");
+	background-size: 100% auto;
+	width: 100%;
+	height: 378px;
+	background-repeat: no-repeat;
+}
