@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	letter-spacing: 1px;
 }
 p{
 	margin-block-start: 0;
@@ -7,6 +8,9 @@ p{
 }
 a{
 	text-decoration: none;
+}
+input{
+	font-size: 14px;
 }
 #container{
 	width: 100%;
@@ -29,7 +33,6 @@ a{
 	display: inline-block;
 	line-height: 39px;
 	font-size: 18px;
-	letter-spacing: 1px;
 }
 .contact{
 	font-family: Arial;
@@ -77,10 +80,52 @@ a{
 #navig_list>a:hover{
 	color: #1ba19d;
 }
+#navig_list>a.navig_active{
+	color: #1ba19d;
+}
 #search{
 	background-image: url("img/b1.jpg");
 	background-size: 100% auto;
 	width: 100%;
 	height: 378px;
 	background-repeat: no-repeat;
+}
+input[type='search']{
+	width: 561px;
+	height: 49px;
+	padding: 18px 0 17px 15px;
+	border:0;
+	margin-top: 14px;
+}
+input[type="submit"]{
+	font-family: SourceHanSansCN,Arial;
+	font-weight: bold; 
+	letter-spacing: 2px;
+	width: 117px;
+	/*background-color: #1ba19d;*/
+	background-image: url("img/b2.png");
+	color: white;
+	height: 49px;
+	border:0;
+	cursor: pointer;
+	padding-left: 37px;
+}
+#search ul{
+	font-family: SourceHanSansCN,Arial;
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 14px;
+	margin-bottom: 0;
+	color: white;
+}
+#form_search{
+	height: 147px;
+	margin: auto auto 45px auto;
+}
+li>a{
+	font-family: SourceHanSansCN,Arial;
+	color: white;
+}
+li>a:hover{
+	color: #1ba19d;
 }

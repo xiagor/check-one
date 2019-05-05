@@ -31,7 +31,7 @@
 				</div>	
 			</div>
 			<div id="navig_list">
-				<a href="" class="navig_text">Yechine首页</a>
+				<a href="" class="navig_text navig_active">Yechine首页</a>
 				<a href="" class="navig_text">公司简介</a>
 				<a href="" class="navig_text">人才招聘</a>
 				<a href="" class="navig_text">公告通知</a>
@@ -40,8 +40,19 @@
 		</div>
 	</div>
 	<div id="pagebody">
-		<div id="search">
-			
+		<div id="search" style="display: flex;">
+			<div id="form_search">
+				<form action="" method="get">
+					<i class="icon_search"></i>
+					<input type="submit" value="全部搜索"><input type="search" name="all_search" placeholder="请输入您要搜索的产品分类、型号" style="margin-top: 0";>
+				</form>
+				<form action="" method="get">
+					<input type="submit" value="名称搜索"><input type="search" name="name_search" placeholder="请输入您要搜索的产品名称">
+				</form>
+				<ul id="keywords">
+					<li>HOT关键词：<a href="">灭菌器</a> | <a href="">离心管</a> | <a href="">手套</a> | <a href="">pH计</a> | <a href="">活性口罩</a> | <a href="">滤纸</a> | <a href="">胶头</a> | <a href="">三脚架</a></li>
+				</ul>
+			</div>	
 		</div>
 	</div>	
 </div>
